@@ -297,7 +297,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 0px;
+    left: 50px;
     top: 0px;
     position: absolute;
 }
@@ -308,7 +308,7 @@
     border-right: 3px solid black;
     transform:rotate(-135deg);
     top: 85px;
-    left:19px;
+    left:69px;
     position: absolute;
 }
 .line2-k{
@@ -317,7 +317,7 @@
     border-right: 3px solid black;
     transform:rotate(-55deg);
     top: 160px;
-    left:-65px;
+    left:-15px;
     position: absolute;
 }
 
@@ -325,7 +325,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 0px;
+    left: 50px;
     top: 0px;
     position: absolute;
 }
