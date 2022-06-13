@@ -1,19 +1,19 @@
 
 .letter {
 
-    width:230px; /*resize as you see fit */
+    width:250px; /*resize as you see fit */
     height:270px; /*resize as you see fit */
     display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-    border:1px solid #000; /*feel free to remove or hide this rule */
+    /* border:1px solid #000; feel free to remove or hide this rule */
     position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 }
 .circle-a {
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
-    border-top: 3px solid transparent;
-    border-left: 3px solid transparent;
+    background-color:transparent;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     transform: rotate(135deg);
@@ -24,10 +24,9 @@
 .line-a{
     border-left: 3px solid black;
     width:200px;
-    height:153px;
-    transform: rotate(-25deg);
-    left: 92px;
-    top: 1px;
+    height:135px;
+    left: 138px;
+    top: 55px;
     position: absolute;
 }
 
@@ -35,9 +34,9 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
-    border-top: 3px solid transparent;
-    border-left: 3px solid transparent;
+    background-color:transparent;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     transform: rotate(135deg);
@@ -49,7 +48,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 20px;
+    left: 0px;
     top: 0px;
     position: absolute;
 }
@@ -58,34 +57,26 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
-    border-right: 3px solid transparent;
+    border-right: 3px solid black;
     border-bottom: 3px solid black;
-    transform: rotate(45deg);
+    transform: rotate(90deg);
     top:50px;
     left:0px;
     position: absolute;
 }
-/* .linec{
-    border-left: 2px solid black;
-    width:200px;
-    height:190px;
-    left: 500px;
-    top: 150px;
-    position: absolute;
-} */
 
 .circle-d {
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid black;
     border-left: 3px solid black;
-    border-right: 3px solid transparent;
-    border-bottom: 3px solid transparent;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
     transform: rotate(135deg);
     top:50px;
     left:0px;
@@ -95,7 +86,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 115px;
+    left: 139px;
     top: 0px;
     position: absolute;
 }
@@ -104,10 +95,10 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
-    border-right: 3px solid transparent;
+    border-right: 3px solid black;
     border-bottom: 3px solid black;
     transform: rotate(135deg);
     top:50px;
@@ -128,7 +119,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
@@ -138,14 +129,7 @@
     left:0px;
     position: absolute;
 }
-.corner-f{
-    width: 55px;
-    height: 50px;
-    background-color:yellow;
-    top:90px;
-    left:0px;
-    position: absolute;
-}
+
 .line-f{
     border-bottom: 3px solid black;
     width:141px;
@@ -157,9 +141,9 @@
 .stem-f{
     border-left: 3px solid black;
     width:141px;
-    height:180px;
-    left: 25px;
-    top: 18px;
+    height:120px;
+    left: 0px;
+    top: 70px;
     position: absolute;
 } 
 
@@ -167,11 +151,11 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid black;
     border-left: 3px solid black;
-    border-right: 3px solid transparent;
-    border-bottom: 3px solid transparent;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
     transform: rotate(135deg);
     top:50px;
     left:0px;
@@ -180,22 +164,22 @@
 .stem-g{
     border-right: 3px solid black;
     width:141px;
-    height:198px;
-    left: -25px;
+    height:158px;
+    left: -3px;
     top: 50px;
     position: absolute;
 }
 .descender-g{
     border-radius: 50%;
-    width: 125px;
-    height: 125px;
+    width: 126px;
+    height: 126px;
     border-top: 3px solid transparent;
     border-left: 3px solid transparent;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     transform: rotate(45deg);
     top:139px;
-    left: 5px;
+    left: 9px;
     position: absolute;
 }
 
@@ -203,7 +187,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
@@ -213,18 +197,26 @@
     left:0px;
     position: absolute;
 }
-.line-h{
+.line1-h{
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 20px;
+    left: 0px;
     top: 0px;
+    position: absolute;
+}
+.line2-h{
+    border-left: 3px solid black;
+    width:200px;
+    height:75px;
+    left: 138px;
+    top: 115px;
     position: absolute;
 }
 .corner-h{
     width: 140px;
     height: 60px;
-    background-color:yellow;
+    background-color:transparent;
     
     top: 130px;
     left:0px;
@@ -235,7 +227,7 @@
     border-left: 3px solid black;
     width:200px;
     height:100px;
-    left: 20px;
+    left: 60px;
     top: 90px;
     position: absolute;
 }
@@ -243,7 +235,7 @@
     border-left: 3px solid black;
     width:200px;
     height:10px;
-    left: 20px;
+    left: 60px;
     top: 55px;
     position: absolute;
 } 
@@ -251,8 +243,8 @@
 .stem-j{
     border-right: 3px solid black;
     width:141px;
-    height:158px;
-    left: -25px;
+    height:120px;
+    left: -8px;
     top: 90px;
     position: absolute;
 }
@@ -270,10 +262,10 @@
     position: absolute;
 }
 .tittle-j{
-    border-left: 3px solid black;
-    width:200px;
+    border-right: 3px solid black;
+    width:141px;
     height:10px;
-    left: 116px;
+    left: -8px;
     top: 55px;
     position: absolute;
 } 
@@ -283,7 +275,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
@@ -297,7 +289,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 50px;
+    left: 0px;
     top: 0px;
     position: absolute;
 }
@@ -308,7 +300,7 @@
     border-right: 3px solid black;
     transform:rotate(-135deg);
     top: 85px;
-    left:69px;
+    left:19px;
     position: absolute;
 }
 .line2-k{
@@ -317,7 +309,7 @@
     border-right: 3px solid black;
     transform:rotate(-55deg);
     top: 160px;
-    left:-15px;
+    left:-65px;
     position: absolute;
 }
 
@@ -325,7 +317,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 50px;
+    left: 60px;
     top: 0px;
     position: absolute;
 }
@@ -333,29 +325,30 @@
 .line1-m{
     border-left: 3px solid black;
     width:200px;
-    height:70px;
+    height:135px;
     left: 0px;
     top: 55px;
     position: absolute;
 }
-/* m would not have been consistent if I included this*/
-/* .line2-m{
+
+.line2-m{
     border-left: 3px solid black;
     width:200px;
     height:75px;
     left: 228px;
     top: 115px;
     position: absolute;
-} */
+}
 .circle1-m {
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
     border-bottom: 3px solid black;
+    border-radius: 100%;
     transform: rotate(135deg);
     top:50px;
     left:0;
@@ -365,7 +358,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
@@ -378,7 +371,7 @@
 .square2-m {
     width: 230px;
     height: 70px;
-    background-color:yellow;
+    background-color:transparent;
     top:120px;
     left:00px;
     position: absolute;
@@ -386,7 +379,7 @@
 .square-m {
     width: 100px;
     height: 60px;
-    background-color:yellow;
+    background-color:transparent;
     top:68px;
     left:80px;
     position: absolute;
@@ -395,7 +388,7 @@
 .square-n {
     width: 140px;
     height: 70px;
-    background-color:yellow;
+    background-color:transparent;
     top:120px;
     left:0px;
     position: absolute;
@@ -403,16 +396,24 @@
 .line1-n{
     border-left: 3px solid black;
     width:200px;
-    height:70px;
+    height:135px;
     left: 0px;
     top: 55px;
+    position: absolute;
+}
+.line2-n{
+    border-left: 3px solid black;
+    width:200px;
+    height:75px;
+    left: 138px;
+    top: 115px;
     position: absolute;
 }
 .circle1-n {
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
@@ -427,7 +428,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border: 3px solid black;
     top:50px;
     left:0px;
@@ -438,11 +439,11 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid black;
     border-left: 3px solid black;
-    border-right: 3px solid transparent;
-    border-bottom: 3px solid transparent;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
     transform: rotate(-45deg);
     top:50px;
     left:0px;
@@ -452,7 +453,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 20px;
+    left: 0px;
     top: 50px;
     position: absolute;
 }
@@ -461,9 +462,9 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
-    border-top: 3px solid transparent;
-    border-left: 3px solid transparent;
+    background-color:transparent;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     transform: rotate(-45deg);
@@ -475,7 +476,7 @@
     border-left: 3px solid black;
     width:200px;
     height:190px;
-    left: 115px;
+    left: 139px;
     top: 50px;
     position: absolute;
 }
@@ -484,7 +485,7 @@
     border-left: 3px solid black;
     width:200px;
     height:135px;
-    left: 0px;
+    left: 60px;
     top: 55px;
     position: absolute;
 }
@@ -492,29 +493,21 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid black;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     border-bottom: 3px solid transparent;
     transform: rotate(-45deg);
     top:50px;
-    left:0px;
-    position: absolute;
-}
-.corner-r{
-    width: 55px;
-    height: 50px;
-    background-color:yellow;
-    top:140px;
-    left:0px;
+    left:60px;
     position: absolute;
 }
 .circle-s{
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid black;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
@@ -553,7 +546,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
@@ -563,18 +556,26 @@
     left:0px;
     position: absolute;
 }
-.line-u{
+.line1-u{
     border-left: 3px solid black;
     width:200px;
     height:135px;
-    left: 20px;
+    left: 139px;
+    top: 50px;
+    position: absolute;
+}
+.line2-u{
+    border-left: 3px solid black;
+    width:200px;
+    height:75px;
+    left: 0px;
     top: 50px;
     position: absolute;
 }
 .corner-u{
     width: 140px;
     height: 60px;
-    background-color:yellow;
+    background-color:transparent;
     top: 50px;
     left:0px;
     position: absolute;
@@ -659,7 +660,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid transparent;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
@@ -669,33 +670,33 @@
     left:0px;
     position: absolute;
 }
-.corner-y{
-    width: 140px;
-    height: 60px;
-    background-color:yellow;
-    top: 50px;
-    left:0px;
-    position: absolute;
-}
 .stem-y{
     border-right: 3px solid black;
     width:141px;
-    height:198px;
-    left: -25px;
+    height:158px;
+    left: -2px;
     top: 50px;
     position: absolute;
 }
 .descender-y{
     border-radius: 50%;
-    width: 125px;
-    height: 125px;
+    width: 126px;
+    height: 126px;
     border-top: 3px solid transparent;
     border-left: 3px solid transparent;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
     transform: rotate(45deg);
     top:139px;
-    left: 5px;
+    left: 10px;
+    position: absolute;
+}
+.line-y{
+    border-left: 3px solid black;
+    width:200px;
+    height:70px;
+    left: 0px;
+    top: 55px;
     position: absolute;
 }
 
@@ -703,7 +704,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:tr;
     border-top: 3px solid black;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
@@ -728,7 +729,7 @@
     top: 120px;
     position: absolute;
 }
-/* establish the bottom of the letter */
+/* establish the bottom of the letter*/
 /* .baseline {
     border-bottom: 3px dotted blue;
     width:100%;
@@ -742,7 +743,7 @@
     border-radius: 50%;
     width: 135px;
     height: 135px;
-    background-color:yellow;
+    background-color:transparent;
     border-top: 3px solid black;
     border-left: 3px solid black;
     border-right: 3px solid transparent;
